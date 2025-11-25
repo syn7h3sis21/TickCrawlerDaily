@@ -7,9 +7,9 @@ import requests
 import shutil
 import time
 from tqdm import tqdm
+import ujson
 from zipfile import ZipFile
 
-import ujson
 
 class TickCrawlerDaily:
     def __init__(self):
